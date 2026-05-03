@@ -1,0 +1,14 @@
+# Dependencies and generated output
+node_modules/
+dist/
+.vitepress/cache/
+.vitepress/dist/
+
+# Secrets and local machine files
+.env
+.env.*
+!.env.example
+.DS_Store
+.idea/
+*.swp
+personal/
