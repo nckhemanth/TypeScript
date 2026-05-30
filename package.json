@@ -1,0 +1,21 @@
+{
+  "name": "typescript-zod-field-guide",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lab:1": "tsx 09-labs/01-narrowing-and-guards.ts",
+    "lab:2": "tsx 09-labs/02-generics-and-utility-types.ts",
+    "lab:3": "tsx 09-labs/03-zod-validation.ts",
+    "lab:all": "npm run lab:1 && npm run lab:2 && npm run lab:3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.7",
+    "@types/react": "^19.1.8",
+    "react": "^19.1.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "zod": "^4.1.13"
+  }
+}
